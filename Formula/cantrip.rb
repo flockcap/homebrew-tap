@@ -1,25 +1,25 @@
 class Cantrip < Formula
   desc "Speak plainly. Get the incantation. A beautiful, keyless shell companion."
   homepage "https://github.com/flockcap/cantrip"
-  version "0.1.1"
+  version "0.1.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/flockcap/cantrip/releases/download/v0.1.1/cantrip-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "a770974b502b48eea3e5c0b0b851b8abe50131f7dde45d4deeb0c1e10abd0b5f"
+      url "https://github.com/flockcap/cantrip/releases/download/v0.1.2/cantrip-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "80440b3c7671749b0293675f69ebc08b33de391e1bba3b34ccb637b748889cf9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/flockcap/cantrip/releases/download/v0.1.1/cantrip-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "4d294ab4da18849916c7daef8bb24cd80e3386f9cff3f726208b1fe8834bbe1b"
+      url "https://github.com/flockcap/cantrip/releases/download/v0.1.2/cantrip-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "2436217c78b77db3e14e44e109eb508a304b5502aca91da9b657711189d30f51"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/flockcap/cantrip/releases/download/v0.1.1/cantrip-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "c20c40f4c362f47e09e5b528064df003896610a780c452436b62196c9cbb19ce"
+      url "https://github.com/flockcap/cantrip/releases/download/v0.1.2/cantrip-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4c62ff6e15655bdafd9f72eccf33093fa708657c51066070bed5c155d450ee07"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/flockcap/cantrip/releases/download/v0.1.1/cantrip-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "778c8b41bd4d9b1687721da182bb48212fd02992c50ff1de89127bd9ed12feae"
+      url "https://github.com/flockcap/cantrip/releases/download/v0.1.2/cantrip-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e543173a23bb57e5cb80157f7885b2e52a3b67f3c0f00e77904825cb886b709c"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
